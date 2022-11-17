@@ -11294,7 +11294,8 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 10rem 0;
+  position: relative;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11555,3 +11556,58 @@ width: auto; height: 100%; margin-left: -50px;
   left: 300px;
 }
 
+.blue-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.blue-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.blue-wave .shape-fill {
+    fill: #202A44;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .blue-wave svg {
+        width: calc(100% + 1.3px);
+        height: 69px;
+    }
+}
+
+.white-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.white-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.white-wave .shape-fill {
+    fill: #FFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .white-wave svg {
+        width: calc(100% + 1.3px);
+        height: 69px;
+    }
+}
