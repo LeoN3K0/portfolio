@@ -6,6 +6,7 @@ import {Link} from "react-scroll";
 const Home = () => {
     return (
         <>
+            <ParticlesBg color="#F5F5F5" type="lines" bg={true} /> 
             <div name='home' className="w-full  h-screen">
                 {/*Container*/}
                 <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -24,7 +25,6 @@ const Home = () => {
                     </div>
                 </div>         
             </div>
-            <ParticlesBg color="#F5F5F5" type="lines" bg={true} /> 
         </>
     );
 }
