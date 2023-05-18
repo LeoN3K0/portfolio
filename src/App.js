@@ -10,8 +10,8 @@ import ParticlesBg from "particles-bg";
 
 function App() {
   return (
+    <>
     <div>
-    <ParticlesBg color="#F5F5F5" type="lines" bg={true} /> 
     <Nav/>
     <Home/>
     <About/>
@@ -19,6 +19,8 @@ function App() {
     <Work/>    
     <Contact/>
     </div>
+    <ParticlesBg color="#F5F5F5" type="lines" bg={true} /> 
+    </>
   );
 }
 
