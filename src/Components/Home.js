@@ -3,10 +3,11 @@ import ParticlesBg from "particles-bg";
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import {Link} from "react-scroll";
 
+
 const Home = () => {
     return (
             <div name='home' className="w-full  h-screen">
-                <ParticlesBg color="#F5F5F5" type="lines" bg={true} className="h-screen" /> 
+                <ParticlesBg color="#F5F5F5" type="lines" bg={{position: "absolute", zIndex: -1, height: 1000}} /> 
                 {/*Container*/}
                 <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
                     <p className="text-[#3ebea8]">Hello, my name is</p>
