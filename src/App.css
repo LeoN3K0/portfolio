@@ -1,10 +1,18 @@
 @font-face {
-  font-family: 'Second Reign PERSONAL USE ONLY Border';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Second Reign PERSONAL USE ONLY Border'), url('SecondReignPersonalUseOnlyBorder-Wy5n9.otf') format('otf');
-  }
+    font-family: 'Norse Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Norse Regular'), url('Norse.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Norse Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Norse Bold'), url('Norsebold.woff') format('woff');
+    }
 
 .name-logo{
-  font-family: 'Second Reign PERSONAL USE ONLY Border';  
+  font-family: 'Norse Bold';  
 }

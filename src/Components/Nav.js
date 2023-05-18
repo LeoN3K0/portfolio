@@ -13,7 +13,7 @@ const Nav = () => {
     return(
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#1E1926] text-[#3ebea8] border-b-2 border-[#3100e3] shadow-md shadow-[#3100e3] ">
             <div>
-                <h1 className="text-[#3ebea8] text-3xl italic font-bold name-logo">EM</h1>
+                <h1 className="text-[#3ebea8] text-3xl italic font-bold name-logo">E M</h1>
             </div>            
         
             {/*Menu*/}
