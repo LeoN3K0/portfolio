@@ -34,7 +34,7 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-[#F5F5F5] tracking-wider">
-                                Robo Friends
+                                Smart Image-Face Detection
                             </span>
                             <div className="pt-8 text-center">
                                 <a href="https://leon3k0.github.io/smartimg/" target="_blank">
