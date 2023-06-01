@@ -1,6 +1,8 @@
 import React from "react";
 import robotFriends from '../Assets/robots.jpg';
 import faceDetection from '../Assets/Face.png';
+import emailGenerator from '../Assets/email.jpg';
+import emailDemo from '../Assets/email_manager.jar';
 
 const Work = () => {
     return(
@@ -41,6 +43,23 @@ const Work = () => {
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F5F5F5] text-[#1e1926] font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="https://github.com/LeoN3K0/smartimg" target="_blank">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F5F5F5] text-[#1e1926] font-bold text-lg">Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{backgroundImage: `url(${emailGenerator})`}} 
+                    className="shadow-lg shadow-[#F5F5F5] group container rounded-md flex justify-center items-center mx-auto content-div">
+                        {/* Hover Effects */}
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl font-bold text-[#F5F5F5] tracking-wider">
+                                New Hire Email Manager
+                            </span>
+                            <div className="pt-8 text-center">
+                                <a href={emailDemo} download="Email_Demo.jar" target="_blank">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F5F5F5] text-[#1e1926] font-bold text-lg">Demo</button>
+                                </a>
+                                <a href="https://github.com/LeoN3K0/email_manager" target="_blank">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F5F5F5] text-[#1e1926] font-bold text-lg">Code</button>
                                 </a>
                             </div>
