@@ -57,7 +57,7 @@ const Work = () => {
                             </span>
                             <div className="pt-8 text-center">
                                 <a href={emailDemo} download="Email_Demo.jar" target="_blank">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F5F5F5] text-[#1e1926] font-bold text-lg">Demo</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F5F5F5] text-[#1e1926] font-bold text-lg">Demo Download</button>
                                 </a>
                                 <a href="https://github.com/LeoN3K0/email_manager" target="_blank">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#F5F5F5] text-[#1e1926] font-bold text-lg">Code</button>
